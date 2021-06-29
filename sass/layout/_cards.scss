@@ -80,4 +80,93 @@
     overflow: hidden;
   }
   
+
+
+
+
+
+
   
+  @media screen and (min-width: 768px) {
+    .cards{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -30px;
+      margin-top: -30px;
+    }
+    
+    .cards-boxs{
+      margin-left: 30px;
+      margin-top: 30px;
+      flex-basis: 354px;
+      width: 354px;
+    
+    }
+    
+    
+    
+    .cards-text{
+      border: 1px solid #EEEEEE;
+      box-sizing: border-box;
+      border-top: none;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 352px;
+    }
+    
+    .cards-box{
+      width: 354px;
+      flex-basis: 370px;
+      box-shadow: 0 0 0 0;
+      cursor: pointer;
+      &:hover, &:focus{
+      box-shadow: 5px 5px 5px #E5E5E5;
+      }
+      &:hover .overley{
+      transform: translateY(0%);
+      }
+    }
+  
+    .overley{
+      top: 0;
+      left: 0;
+      position: absolute;
+      font-family: Roboto;
+      font-size: 18px;
+      line-height: 1.6;
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+      background-color: rgba(33, 150, 243, 0.9);;
+      padding: 63px 24px;
+      height: 294px;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      transform: translateY(100%);
+      transition: transform 250ms linear;
+    }
+    
+    .cards-wrapper{
+      position: relative;
+      padding: 0px;
+      overflow: hidden;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+.cards-itom-text{
+      font-size: 17px;
+    }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+      .portfolio{
+            padding-bottom: 60px;
+          }
+          }
+
+    
+
+   }

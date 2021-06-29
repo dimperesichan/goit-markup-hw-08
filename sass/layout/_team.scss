@@ -72,12 +72,12 @@
 .our-team-list{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-top: 0px;
 }
 
@@ -91,7 +91,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     width: 100%;
-    height: 2762px;
+    height: 3000px;
   }
 
   @media screen and (max-width: 767px) {
@@ -101,6 +101,9 @@
   }
      }
 
+     
+
+    
      @media screen and (max-width: 767px) {
  .our-team-box{
       height: 100%;
@@ -108,17 +111,12 @@
         
     }
 
-
-     
-
     @media screen and (max-width: 767px) {
    .our-team-img{
   width: 100%;}
 }
     }
     
-
-
     @media screen and (max-width: 767px) {
       .our-team-img{
      width: 100%;}
@@ -173,20 +171,19 @@
     margin-right: auto;
     background-color: #F5F4FA;
     padding-top: 60px;
-    padding-bottom: 60px;
   }
 }
 
 @media screen and (min-width: 768px) {
 .our-team-container{
-      height: 1285px;
+      height: 1255px;
     }
 }
 
 
 @media screen and (min-width: 768px) {
     .our-team-box{
-height: 536px;
+      height: 536px;
     }
 }
 
@@ -241,17 +238,33 @@ margin-bottom: 30px;
 
 @media screen and (min-width: 1200px) {
 
-.our-team{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
+  .our-team-list{
+    font-size: 33px;
+    line-height: 1.16;
+    margin-bottom: 50px;
   }
+}
   
-  .our-team-container{
+@media screen and (min-width: 1200px) {
+
+  .our-team{
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #F5F4FA;
+      padding-top: 94px;
+      padding-bottom: 94px;
+  }
+}   
+
+@media screen and (min-width: 1200px) {
+.our-team-container{
     height: 520px;
   }
+  
+}   
+
+
+  
   
   .our-team-list-img{
     display: flex;
@@ -275,11 +288,13 @@ margin-bottom: 30px;
     text-align: center;
   }
   
+  @media screen and (min-width: 1200px) {
   .our-team-box{
     height: 428px;
   }
+      
+    }   
+  
 
 .our-team-img{
   width: 100%;}
-}
-

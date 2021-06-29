@@ -3,6 +3,7 @@
         position: fixed;
         top: 0;
         left: 0;
+      
         width: 100%;
          height: 100%;
         background-color: #FFFFFF;
@@ -14,8 +15,8 @@
         visibility: hidden;
         pointer-events: none;
         z-index: 100;
-       
     }
+
 
     .mobile-menu_link{
        font-family: Roboto;
@@ -84,13 +85,20 @@
     .mobile-menu_contacts__tel{
         margin-bottom: 30px;
     }
-    .mobile-menu_contacts__tel-smartphone{
-font-weight: 500;
-font-size: 34px;
-line-height: 1.17;
-letter-spacing: 0.02em;
-color: #2196F3;
 
+    .mobile-menu_item{
+        margin-bottom: 30px;
+    }
+
+
+    .mobile-menu_contacts__tel-smartphone{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #2196F3;
 }
 
 .mobile-menu_contacts__mail-envelope{
