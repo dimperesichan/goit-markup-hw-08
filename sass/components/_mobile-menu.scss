@@ -67,15 +67,16 @@
         width: 40px;
         height: 40px;
         
-
-
     }
 
+    @media screen and (max-width: 767px) {
+ 
     .mobile-menu.is-open {
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
     }
+}
 
     .mobile-menu_nav{
         margin-bottom: 302px;
